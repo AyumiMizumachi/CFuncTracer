@@ -1,0 +1,12 @@
+{
+	"trace0" : [
+		"connect", "bind"
+	],
+	"trace1" : [
+		"socket", "setsockopt"
+	],
+	"trace2" : [
+		"ioctl",
+	]
+}
+

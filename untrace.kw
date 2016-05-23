@@ -1,0 +1,16 @@
+{ "system call" : [
+		"time", "nanosleep",
+		"write", "read", "socket", "select", "ioctl", "setsockopt",
+		"open", "close",
+		"brk",
+		"getpid"
+	],
+	"system library" : [
+		"printf", "sprintf", "snprintf", "fprintf",
+		"strcpy", "strcmp", "strtok", "strncpy", "strncat", "strlen", "strtol", "strtoul",
+		"memcpy", "memset", "memmove",
+		"sleep",
+		"malloc", "calloc", "realloc", "free"
+	]
+}
+
